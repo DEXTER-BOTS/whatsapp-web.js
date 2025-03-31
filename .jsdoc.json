@@ -1,26 +1,62 @@
 {
-    "tags": {
-        "allowUnknownTags": true,
-        "dictionaries": ["jsdoc"]
+  "business_name": "Kaleem Digital Services",
+  "categories": [
+    {
+      "name": "Social Media Boosts",
+      "items": [
+        {
+          "id": 1,
+          "name": "TikTok Boost - 1000 Views",
+          "price": 5.99,
+          "description": "High-quality views from real accounts"
+        },
+        {
+          "id": 2,
+          "name": "TikTok Boost - 5000 Views",
+          "price": 24.99,
+          "description": "Get your video trending faster"
+        },
+        {
+          "id": 3,
+          "name": "Facebook Boost - 1000 Reactions",
+          "price": 8.99,
+          "description": "Increase engagement on your posts"
+        }
+      ]
     },
-    "source": {
-        "include": ["src", "package.json", "README.md"],
-        "includePattern": ".js$",
-        "excludePattern": "(node_modules/|docs)"
+    {
+      "name": "Website Services",
+      "items": [
+        {
+          "id": 4,
+          "name": "Basic Website",
+          "price": 199.99,
+          "description": "5-page responsive website"
+        },
+        {
+          "id": 5,
+          "name": "E-commerce Site",
+          "price": 499.99,
+          "description": "Complete online store setup"
+        }
+      ]
     },
-    "plugins": [
-        "plugins/markdown"
-    ],
-    "templates": {
-        "cleverLinks": false,
-        "monospaceLinks": true,
-        "useLongnameInNav": false,
-        "showInheritedInNav": true
-    },
-    "opts": {
-        "destination": "./docs/",
-        "encoding": "utf8",
-        "recurse": true,
-        "template": "./node_modules/jsdoc-baseline"
+    {
+      "name": "Digital Marketing",
+      "items": [
+        {
+          "id": 6,
+          "name": "SEO Package",
+          "price": 299.99,
+          "description": "Monthly search optimization"
+        },
+        {
+          "id": 7,
+          "name": "Social Media Management",
+          "price": 399.99,
+          "description": "Full platform management"
+        }
+      ]
     }
+  ]
 }
